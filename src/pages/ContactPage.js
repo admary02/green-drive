@@ -25,6 +25,12 @@ const ContactPage = () => {
                     greendriveschool@gmail.com
                   </a>
                 </li>
+                <li className="text-lg text-gray-700 mb-2">
+                  <strong>Email:</strong>{' '}
+                  <a href="mailto:instructorautobro58@gmail.com" className="text-green-600 hover:underline">
+                    instructorautobro58@gmail.com
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -53,8 +59,14 @@ const ContactPage = () => {
             <a href="https://www.facebook.com/GreenDriveSchool" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-all duration-300">
               <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Green Drive" className="w-12 h-12" />
             </a>
+            <a href="https://www.facebook.com/instructorautob.ro" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-all duration-300">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Green Drive" className="w-12 h-12" />
+            </a>
             <a href="https://www.instagram.com/greendrive_2021/" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-all duration-300">
               <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram Green Drive" className="w-12 h-12" />
+            </a>
+            <a href="https://www.instagram.com/instructorautob.ro/" target="_blank" rel="noopener noreferrer" className="transform hover:scale-110 transition-all duration-300">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram instructorautob.ro" className="w-12 h-12" />
             </a>
           </div>
         </section>

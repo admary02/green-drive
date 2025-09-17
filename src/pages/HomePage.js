@@ -13,7 +13,7 @@ const HomePage = () => {
       >
         <div className="absolute inset-0 bg-black opacity-40"></div>
         <div className="relative flex flex-col items-center justify-center w-full h-full text-white text-center">
-          <h1 className="text-4xl font-bold">Școala de șoferi Green Drive</h1>
+          <h1 className="text-4xl font-bold">Școala de șoferi Adam Maricel PFA</h1>
           <p className="mt-4 text-xl">Învățăm să conducem în siguranță, cu încredere și pricepere!</p>
           <Link to="/services" className="mt-6 py-3 px-6 bg-green-500 text-white rounded-lg shadow-md hover:bg-green-600">
             Descoperă serviciile noastre
@@ -25,8 +25,8 @@ const HomePage = () => {
       <section className="py-20 px-4 text-center">
         <h2 className="text-3xl font-semibold text-gray-800">Despre Noi</h2>
         <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-          La Green Drive, credem că învățarea condusului ar trebui să fie o experiență plăcută și plină de satisfacții. Instructorii noștri experimentați sunt dedicați să ofere o
-          educație rutieră de înaltă calitate, care să vă pregătească pentru o viață întreagă de condus în siguranță.
+          La Adam Maricel PFA, credem că învățarea condusului ar trebui să fie o experiență plăcută și plină de satisfacții. Instructorii noștri experimentați sunt dedicați să
+          ofere o educație rutieră de înaltă calitate, care să vă pregătească pentru o viață întreagă de condus în siguranță.
         </p>
       </section>
 
@@ -57,7 +57,8 @@ const HomePage = () => {
         <div className="mt-8 max-w-3xl mx-auto">
           <div className="bg-white p-8 shadow-lg rounded-lg mb-6">
             <p className="text-lg text-gray-600 italic">
-              "Green Drive mi-a oferit cea mai bună experiență de condus! Instructorii au fost răbdători și profesioniști, iar eu am promovat testul din prima încercare!"
+              "Adam Maricel P.F.A. mi-a oferit cea mai bună experiență de condus! Domnul instructor Adam, a fost răbdător și profesionist, iar eu am promovat testul din prima
+              încercare!"
             </p>
             <p className="mt-4 text-sm text-gray-500">- Maria S., Elevă</p>
           </div>

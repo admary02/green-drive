@@ -1,10 +1,13 @@
 import React from 'react';
+import { useLanguage } from '../LanguageContext';
 
 const HomeContent = () => {
+  const { translate: t } = useLanguage();
+
   return (
     <div>
-      <h1>Welcome to Green Drive Driving School</h1>
-      <p>Your journey to becoming a skilled driver starts here.</p>
+      <h1>{t('home.hero.title')}</h1>
+      <p>{t('home.hero.lead')}</p>
     </div>
   );
 };
