@@ -131,9 +131,68 @@ export const translations = {
       empty: 'There are no photos for the selected filter yet.',
     },
 
+    pricingPage: {
+      title: 'Driving School Prices',
+      offer: {
+        title: 'March Offer',
+        manual: {
+          title: 'Manual Transmission',
+          priceLabel: 'The price is',
+          price: '2,500 Lei',
+          text: 'for the following cars: Hyundai i30 Fastback, i30, Renault Megane, Ford Focus.',
+        },
+        automatic: {
+          title: 'Automatic Transmission',
+          priceLabel: 'The price is',
+          price: '3,500 Lei',
+          text: 'for the Kia Xceed plug-in hybrid.',
+        },
+      },
+      included: {
+        title: "What's Included in the Price",
+        theory: {
+          title: 'Theory Courses',
+          items: [
+            'Traffic laws - 14h',
+            'First aid - 2h',
+            'Specific legislation - 2h',
+            'Vehicle knowledge and maintenance - 2h',
+            'Preventive driving - 4h',
+            'Practical driving - 30h',
+          ],
+        },
+        practice: {
+          title: 'Practical Courses',
+          text: 'Practical lessons take place on exam routes or routes of interest, depending on availability and traffic conditions.',
+        },
+      },
+      discounts: {
+        title: 'Discounts & Other Fees',
+        discountsCard: {
+          title: 'Discounts',
+          items: ['50 Lei discount for pupils and students (with student ID)', '50 Lei discount for groups of 3 or referrals', 'Discounts cannot be combined'],
+        },
+        feesCard: {
+          title: 'Other Fees',
+          items: [
+            { label: 'Extra lesson', value: '200 Lei' },
+            { label: 'Car reservation for the exam', value: '250 Lei' },
+          ],
+        },
+      },
+      additionalDetails: {
+        title: 'Additional Details',
+        text: 'The minimum training period is 5 weeks. Students who bring in another student receive a free extra lesson as a bonus.',
+      },
+    },
+
     // Footer
     footer: {
       rights: '© 2025 Adam Maricel PFA Driving School. All rights reserved.',
+      description: 'Professional driving lessons with experienced instructors, focused on safety and confidence behind the wheel.',
+      quickLinks: 'Quick Links',
+      contactTitle: 'Contact',
+      location: 'Bucharest, Romania',
     },
   },
 
@@ -270,9 +329,68 @@ export const translations = {
       empty: 'Momentan nu sunt fotografii pentru filtrul selectat.',
     },
 
+    pricingPage: {
+      title: 'Tarife Școala de Șoferi',
+      offer: {
+        title: 'Oferta Lunii Martie',
+        manual: {
+          title: 'Transmisie Manuală',
+          priceLabel: 'Prețul este de',
+          price: '2.500 Lei',
+          text: 'pentru autoturismele: Hyundai i30 Fastback, i30, Renault Megane, Ford Focus.',
+        },
+        automatic: {
+          title: 'Transmisie Automată',
+          priceLabel: 'Prețul este de',
+          price: '3.500 Lei',
+          text: 'pentru autoturismul Kia Xceed plug-in hybrid.',
+        },
+      },
+      included: {
+        title: 'Ce Este Inclus în Preț',
+        theory: {
+          title: 'Cursuri Teoretice',
+          items: [
+            'Legislația rutieră - 14h',
+            'Prim ajutor - 2h',
+            'Legislație specifică - 2h',
+            'Cunoașterea și întreținerea autovehiculelor - 2h',
+            'Conducere preventivă - 4h',
+            'Conducere practică - 30h',
+          ],
+        },
+        practice: {
+          title: 'Cursuri Practice',
+          text: 'Cursurile practice sunt desfășurate pe traseele de examen sau pe cele de interes, conform disponibilității și condițiilor de trafic.',
+        },
+      },
+      discounts: {
+        title: 'Reduceri și Alte Taxe',
+        discountsCard: {
+          title: 'Reduceri',
+          items: ['50 Lei reducere pentru elevi și studenți (cu carnetul)', 'Reducere de 50 Lei pentru grupuri de 3 persoane sau recomandare', 'Reducerile nu se cumulează'],
+        },
+        feesCard: {
+          title: 'Alte Taxe',
+          items: [
+            { label: 'Ședință suplimentară', value: '200 Lei' },
+            { label: 'Rezervare autoturism pentru examen', value: '250 Lei' },
+          ],
+        },
+      },
+      additionalDetails: {
+        title: 'Detalii Suplimentare',
+        text: 'Perioada de școlarizare este de minimum 5 săptămâni. Cursantul care aduce un alt elev la înscriere va primi o ședință suplimentară ca bonus.',
+      },
+    },
+
     // Footer
     footer: {
       rights: '© 2025 Adam Maricel PFA Driving School. Toate drepturile rezervate.',
+      description: 'Lecții de condus profesionale, cu instructori experimentați, axate pe siguranță și încredere la volan.',
+      quickLinks: 'Linkuri Rapide',
+      contactTitle: 'Contact',
+      location: 'București, România',
     },
   },
 };
