@@ -2,21 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
 
-body {
-  margin: 0;
-  font-family:
-    'Poppins',
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #1f2937;
+  body {
+    @apply bg-asphalt font-sans text-white antialiased;
+    word-spacing: 0.03em;
+  }
+
+  /* lasă loc pentru navbar-ul fix când sari la o secțiune (#preturi etc.) */
+  section[id] {
+    scroll-margin-top: 4.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+@layer components {
+  /* titluri mari, strânse */
+  .display {
+    @apply font-black leading-[0.95] tracking-[-0.03em];
+    word-spacing: 0.08em;
+  }
+
+  /* linia întreruptă galbenă, ca marcajul de pe drum */
+  .road-line {
+    height: 6px;
+    background: repeating-linear-gradient(90deg, theme('colors.signal.DEFAULT') 0 56px, transparent 56px 100px);
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center rounded-md px-5 py-3 text-sm font-bold transition-colors
+      focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-signal;
+  }
+  .btn-yellow {
+    @apply btn bg-signal text-asphalt hover:bg-signal-600;
+  }
+  .btn-ghost {
+    @apply btn border border-white/25 text-white hover:border-white/60;
+  }
 }

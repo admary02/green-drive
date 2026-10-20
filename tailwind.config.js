@@ -4,18 +4,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          50: '#eefdf5',
-          100: '#d6f8e3',
-          200: '#aff0c9',
-          300: '#77e0a8',
-          400: '#3ec786',
-          500: '#18ab6c',
-          600: '#0f8a58',
-          700: '#0f6d48',
-          800: '#0f573b',
-          900: '#0d4832',
+        asphalt: {
+          DEFAULT: '#18191b', // fundal principal
+          800: '#202226', // carduri pe fundal închis
+          700: '#2c2f33', // borduri / hover
         },
+        signal: {
+          DEFAULT: '#ffc629', // galben marcaj rutier
+          600: '#f0b400', // hover
+        },
+        paper: '#f3f2ef', // fundal secțiune prețuri
+      },
+      fontFamily: {
+        sans: ['Archivo', 'system-ui', 'Segoe UI', 'Arial', 'sans-serif'],
       },
     },
   },
